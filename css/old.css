@@ -1,0 +1,51 @@
+.clear {
+  clear: both;
+}
+
+.someClass-1 {
+  width: 50%;
+  float: left;
+  background-color: #FF00D0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.someClass-1 ul li a {
+  color: #FFD619;
+}
+
+.someClass-1 ul li a:visited {
+  color: green;
+}
+
+.someClass-1 ul li a:hover {
+  color: blue;
+}
+
+.someClass-1 ul li a:active, .someClass-1 ul li a:focus {
+  color: orange;
+}
+
+.someClass-2 {
+  width: 50%;
+  float: left;
+  background-color: #14CCC3;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.someClass-2 a {
+  color: #FFD619;
+}
+
+.someClass-2 a:visited {
+  color: green;
+}
+
+.someClass-2 a:hover {
+  color: blue;
+}
+
+.someClass-2 a:active, .someClass-2 a:focus {
+  color: red;
+}

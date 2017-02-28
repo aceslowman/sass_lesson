@@ -1,0 +1,51 @@
+$primary-color: #FF00D0;
+$secondary-color: #14CCC3;
+$accent-color: #FFD619;
+
+.clear{ clear:both; }
+
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        &:visited {
+            color: $visited;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active, &:focus {
+            color: $active;
+        }
+    }
+}
+
+@mixin panel ($width, $float, $background-color) {
+  width:$width;
+  float:$float;
+  background-color:$background-color;
+  padding:15px;
+  box-sizing:border-box;
+}
+
+.someClass-1{
+  @include panel(50%,left,$primary-color);
+
+  ul{
+    li{
+      a{
+        @include links($accent-color, green, blue, orange);
+      }
+    }
+  }
+}
+
+.someClass-2{
+  @include panel(50%,left,$secondary-color);
+
+  p{
+
+  }
+  a{
+    @include links($accent-color, green, blue, red);
+  }
+}
