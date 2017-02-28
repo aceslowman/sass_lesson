@@ -25,7 +25,7 @@ $accent-color: #FFD619;
   background-color:$background-color;
   padding:15px;
   box-sizing:border-box;
-}
+} 
 
 .someClass-1{
   @include panel(50%,left,$primary-color);

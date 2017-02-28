@@ -4,12 +4,6 @@
 
 SASS (Syntactically Awesome Stylesheets) is a CSS preprocessor that allows us to create more modular, more readable, and more usable CSS.
 
----
-
-*Currently I work on a lot of freelance projects. This requires me to stay as organized as possible, and since there is nobody to really hold me to it, that organization also needs to be easy. Pure HTML, CSS, and Javascript applications are fine, and it's important to know those core technologies before you move on, but it's also important to consider simplify your workflow using extensions and frameworks that you find fun and effective for your situation.*
-
----
-
 ## Why use SASS?
 
 You might have been in the situation where your CSS file has become bloated and unmanageable. Rarely does straight CSS lend well to a well organized project.
@@ -153,8 +147,6 @@ $accent-color: #333;
 Mixins aid in making your CSS more modular and reusable. They are essentially pieces of css that you can include in other classes, and can accept arguments.
 
 A typical example might be a mixin to handle your link colors.
-
-*elaborate more*
 
 ```
 @mixin links ($link, $visited, $hover, $active) {
