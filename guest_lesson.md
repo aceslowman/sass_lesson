@@ -93,12 +93,6 @@ This is difficult to read in a long stylesheet. What you get to do here is *nest
 
 And now, when we are looking for where to style a specific anchor tag, deep within "someClass", we can search *much* more efficiently.
 
----
-
-When I begin a new project, I might start with straight CSS. I'll try to keep it organized, but more than anything, I'm *sketching*. To stay organized, you have to move out of the phase, and often I begin by organizing my straight CSS into SASS by nesting.
-
----
-
 #### Variables
 
 As programmers, we all know the great feeling of changing something in one place, and having that change reflected in many places.
