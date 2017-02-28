@@ -195,3 +195,11 @@ sass --watch scss:css
 This command will watch the /scss folder in your project for any changes, and will automatically output the compiled css in the /css folder.
 
 You are ready to start using SASS!
+
+## Resources
+
+Below are some collections of useful mixins:
+
+http://gillesbertaux.com/andy/
+
+
